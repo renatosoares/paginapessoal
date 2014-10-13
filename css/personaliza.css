@@ -1,0 +1,32 @@
+span.tagHabilidades {
+	margin: 0;
+	padding: 0;
+	background-color: #5BC0DE;
+	width: 150px;
+	height: 25px;
+	display: inline-block;
+	margin: 5px;
+	
+
+}
+span.tagHabilidades a {
+	text-decoration: none;
+	color:#FFF;
+	vertical-align: middle;
+	font-size: 1em;
+}
+
+
+
+/*=========== >>> área de contatos @@@@@*/
+
+div.contatos ul li{
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+div.contatos ul li a{
+	text-decoration: none;
+}
+
+/*=========== <<< área de contatos @@@@@*/
