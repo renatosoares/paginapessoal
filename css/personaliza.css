@@ -16,7 +16,15 @@ span.tagHabilidades a {
 	font-size: 1em;
 }
 
+/*=========== >>> header @@@@@*/
+header nav ul li a embed {
+	width: 100px;
+	margin: -45px 0;
+	margin-right: 10px;
+}
 
+
+/*=========== <<< header @@@@@*/
 
 /*=========== >>> área de contatos @@@@@*/
 
