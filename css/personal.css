@@ -21,7 +21,7 @@ cursor:pointer;
 	left: 20px;
 	position: fixed;
 	top: 20px;
-	width: 32px; 
+	width: 32px;
 	z-index: 0;
 }
 
@@ -242,7 +242,7 @@ label.valid {
 		}
 .portfolio {
 background:#f1f1f1;
-}		
+}
 /* gallery */
 .gallery {
     overflow: hidden;
@@ -267,7 +267,7 @@ background:#f1f1f1;
 }
 .gallery a.mix-cover img {
     width: 100%;
-	
+
 }
 .gallery a.mix-cover, .gallery span.cover {
     background-color: #FFFFFF;
@@ -379,6 +379,14 @@ height:auto !important;
 .modal-dialog {
 width:60% !important;
 }
+a.portfolioButton{
+
+  padding: 0px 115px;
+  background-color: transparent;
+  color: #fff;
+  letter-spacing:15px;
+  border-radius: 0;
+}
 
 /* Footer */
 
@@ -386,6 +394,7 @@ footer {
   padding: 20px 0;
   background:#f1f1f1;
 }
+
 
 /* responsive */
 /* Small devices (tablets, 768px and up) */
