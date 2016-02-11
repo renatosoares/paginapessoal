@@ -1,24 +1,9 @@
-<?php
-$path = ".";
-$diretorio = dir($path);
-//echo "Lista de Arquivos do diretório '<strong>". $path ."</strong>':<br />";
-$contador = 0;
+<?php include '../header.php'; ?>
 
-while($arquivo = $diretorio->read()){
-$caminhosNomes[$contador] = substr($path.$arquivo, 1);
-$arquivosNomes[$contador] = $arquivo;
+<script language="javascript">
+    window.location.href = "../data-sheet.php"
+</script>
 
+ <a href="../data-sheet.php">Portfólio</a>
 
-  $contador++;
-}
-//print_r($arquivosNomes);
-$diretorio->close();
-
-foreach ($caminhosNomes as $key => $value) {
-  if ($value != ".." && $value != "." && $value != "index.php") {
-      echo "<a href='". $value ."'>".$arquivosNomes[$key]."</a><br />";
-  } else {
-    continue;
-  }
-}
-?>
+<?php include '../footer.php'; ?>
