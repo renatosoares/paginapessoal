@@ -13,6 +13,7 @@
     <link href="css/personal.css" rel="stylesheet">
 	<!-- Font Awesome -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    
   </head>
   <body>
-    
